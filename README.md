@@ -30,3 +30,16 @@ head over to git hub repository. find the code button click on it , copy the HTT
 head back to vs code open terminal run 
 <br>
 git clone "HTTPS" (That you have cloned just now, this will clone the repository you have opened in github to vs code)
+<br>
+In terminal type 
+<br>
+ls (list)
+<br>
+ls -a (this will show all the hidden files name, if there is .git in hidden names it means git is tracking that file for version control system)
+<br>
+cd (which means change directory to) "name of your file"
+<br> 
+pwd (present working directory to check location of the file)
+<br>
+
+
