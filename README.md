@@ -41,5 +41,8 @@ cd (which means change directory to) "name of your file"
 <br> 
 pwd (present working directory to check location of the file)
 <br>
+run 'git status' to check the status of the file
+<br>
+there are four changes basically. first one untracked which means there is new file, Second modified means there is no update in a file , Third staged means the code is added and Fourth unmodified means there is update in a file.
 
 
