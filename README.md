@@ -44,5 +44,24 @@ pwd (present working directory to check location of the file)
 run 'git status' to check the status of the file
 <br>
 there are four changes basically. first one untracked which means there is new file, Second modified means there is no update in a file , Third staged means the code is added and Fourth unmodified means there is update in a file.
+<br>
+When creating any file made changes in files you will add those changes and commit them
+<br>
+git add . (this will add all the changes you have made in your file)
+<br>
+git add "the individual file name"  
+<br>
+git commit -m "your message" (this will commit the changes you have made in your file)
+<br>
 
+Stast 
 
+using stash you can temporarly remove changes and head back to your previous commit , use below codes
+<br>
+git stash                  # Stash all changes
+git stash save "message"    # Stash with a message
+git stash list              # List all stashes
+git stash apply             # Apply the most recent stash
+git stash apply stash@{0}   # Apply a specific stash
+git stash drop stash@{0}    # Drop a specific stash
+git stash clear             # Clear all stashes
