@@ -59,9 +59,26 @@ Stast
 using stash you can temporarly remove changes and head back to your previous commit , use below codes
 <br>
 git stash                  # Stash all changes
+<br>
 git stash save "message"    # Stash with a message
+<br>
 git stash list              # List all stashes
+<br>
 git stash apply             # Apply the most recent stash
+<br>
 git stash apply stash@{0}   # Apply a specific stash
+<br>
 git stash drop stash@{0}    # Drop a specific stash
+<br>
 git stash clear             # Clear all stashes
+
+Push changes
+
+To update the code in github with changes you have made in vs code this far.
+<br>
+git add .
+<br>
+git commit -m "your message"
+<br>
+git push origin main ( imagin this origin as your file or repository and main refer to the branh name of repository)
+<br>
