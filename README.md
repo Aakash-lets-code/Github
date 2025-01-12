@@ -82,3 +82,23 @@ git commit -m "your message"
 <br>
 git push origin main ( imagin this origin as your file or repository and main refer to the branh name of repository)
 <br>
+
+Create a new repository through the vs code
+
+If you want to create a new repository through vs code you need to run 
+<br>
+first 'cd ..' to exit current directory 
+<br>
+second mkdir "Name of directory, it will create the file"
+<br>
+third 'cd "Name of directory"' to enter the directory   
+<br>
+Now the file is created in vs code to add in the git hub create a github repository in and copy link of repo.   
+<br>
+Now in vs code run the below commands to link the repository with the file in vs code
+<br>
+git init  (this will make your vs code folder in git versoin control system)
+<br>
+git remote add origin "link of repository"
+<br>
+git remote -v (to verify the remote you just add)
