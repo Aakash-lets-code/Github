@@ -80,7 +80,7 @@ git add .
 <br>
 git commit -m "your message"
 <br>
-git push origin main ( imagin this origin as your file or repository and main refer to the branh name of repository)
+git push origin main ( imagine this origin as your file or repository and main refer to the branch name of repository)
 <br>
 
 Create a new repository through the vs code
@@ -102,3 +102,20 @@ git init  (this will make your vs code folder in git versoin control system)
 git remote add origin "link of repository"
 <br>
 git remote -v (to verify the remote you just add)
+
+Github Branch 
+
+Branch basically means at certain point you are satisfied with your project. After that maked a change and dont want it in your project anymore or want to remove it to create alternative change of it.
+<br>
+Thats where you create branch you merge those branch later delelte it without making change in orignal branch. Run below command
+<br>
+git branch (to check on which branch yoy are currently)
+<br>
+git branch -M "Rename branch"
+<br>
+git branch -d "Delete branch"
+<br>
+git checkout "Branch name" (to switch to that branch)
+<br>
+git checkout -b "Branch name" (to create and switch to that branch)
+<br>
