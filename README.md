@@ -119,3 +119,6 @@ git checkout "Branch name" (to switch to that branch)
 <br>
 git checkout -b "Branch name" (to create and switch to that branch)
 <br>
+
+git merge "Branch name" (to merge the branch)
+<br>
