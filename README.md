@@ -6,45 +6,45 @@ Author - Aakash
 
 I am assuming you have set up your Github. Just by signing with your email.
 
-Now, head over to this link - https://git-scm.com/downloads/win & install git and git bash to your system. If you are coder you will have vs code in your system that we are gonna use.
+Now, head over to this link - [Git & gitbash](https://git-scm.com/downloads/win) & install git and git bash to your system. If you are coder you will have vs code in your system that we are gonna use.
 <br>
 After installing , open git bash.
 <br>
-Run git --version (to chech the verion and confirm you have installed it)
+Run `git --version` (to chech the verion and confirm you have installed it)
 <br>
 Set up your github credential in git bash , open git bash and type
 <br>
-git config --global user.name "your name which you have used to create github account."
+`git config --global user.name "your name which you have used to create github account."`
 <br>
-git config --global user.email "your email which you have used to create github account."(this --global means you are defining you credential to global level on your pc.)
+`git config --global user.email "your email which you have used to create github account."`(this --global means you are defining you credential to global level on your pc.)
 <br>
-git config --list (to check just your user name and user eamil.)
+`git config --list` (to check just your user name and user eamil.)
 <br>
 
-Open vs code
+## Open vs code
 
 create any folder in vs code , open vs code run
 <br>
-git --version (just for confirming)
+`git --version` (just for confirming)
 head over to git hub repository. find the code button click on it , copy the HTTPS.
 <br>
 head back to vs code open terminal run
 <br>
-git clone "HTTPS" (That you have cloned just now, this will clone the repository you have opened in github to vs code)
+`git clone "HTTPS"` (That you have cloned just now, this will clone the repository you have opened in github to vs code)
 <br>
 In terminal type
 <br>
-ls (list)
+`ls` (list)
 <br>
-ls -a (this will show all the hidden files name, if there is .git in hidden names it means git is tracking that file for version control system)
+`ls -a` (this will show all the hidden files name, if there is .git in hidden names it means git is tracking that file for version control system)
 <br>
-cd (which means change directory to) "name of your file"
+`cd` (which means change directory to) "name of your file"
 <br>
 pwd (present working directory to check location of the file)
 <br>
-run 'git status' to check the status of the file
+run `git status` to check the status of the file
 <br>
-there are four changes basically. first one untracked which means there is new file, Second modified means there is no update in a file , Third staged means the code is added and Fourth unmodified means there is update in a file.
+There are four changes basically. first one untracked which means there is new file, Second modified means there is no update in a file , Third staged means the code is added and Fourth unmodified means there is update in a file.
 <br>
 When creating any file made changes in files you will add those changes and commit them
 <br>
@@ -55,7 +55,7 @@ git add "the individual file name"
 git commit -m "your message" (this will commit the changes you have made in your file)
 <br>
 
-Stast
+## Stast
 
 using stash you can temporarly remove changes and head back to your previous commit , use below codes
 <br>
@@ -73,7 +73,7 @@ git stash drop stash@{0} # Drop a specific stash
 <br>
 git stash clear # Clear all stashes
 
-Push changes
+## Push changes
 
 To update the code in github with changes you have made in vs code this far.
 <br>
@@ -104,7 +104,7 @@ git remote add origin "link of repository"
 <br>
 git remote -v (to verify the remote you just add)
 
-Github Branch
+## Github Branch
 
 Branch basically means at certain point you are satisfied with your project. After that maked a change and dont want it in your project anymore or want to remove it to create alternative change of it.
 <br>
